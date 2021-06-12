@@ -6,7 +6,7 @@
     "allowJs": false,
     "skipLibCheck": false,
     "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": false,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
@@ -17,5 +17,5 @@
     "jsx": "react",
     "outDir": "build"
   },
-  "include": ["./src", "./functions", "./types"]
+  "include": ["./src", "./functions"]
 }
